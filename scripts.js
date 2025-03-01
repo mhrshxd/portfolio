@@ -17,9 +17,9 @@ if (!window.matchMedia("(max-width: 768px)").matches) {
         let boxWidth = box.offsetWidth;
         let boxHeight = box.offsetHeight;
         box.style.left = (e.clientX - boxWidth / 2) + "px";
-        box.style.top = (e.clientY - boxHeight / 2 + 20) + "px";
+        box.style.top = (e.clientY - boxHeight / 2) + "px";
         box.style.transition = "background-color 0.5s";
-        box.style.opacity = "1";
+        box.style.opacity = "0.651";
         box.style.backgroundColor = "#3498db";
     });
 }
