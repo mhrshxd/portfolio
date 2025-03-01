@@ -8,11 +8,12 @@ document.getElementById("coolButton").addEventListener("click", function() {
         box.style.transform = "none";
     }, 1000);
 });
+
 function createParticle() {
-    const particle = document.createElement('div');
-    particle.classList.add('particle');
-    particle.style.left = Math.random() * 100 + 'vw';
-    particle.style.animationDuration = Math.random() * 2 + 2 + 's';
+    const particle = document.createElement("div");
+    particle.classList.add("particle");
+    particle.style.left = Math.random() * 100 + "vw";
+    particle.style.animationDuration = Math.random() * 2 + 2 + "s";
     document.body.appendChild(particle);
     setTimeout(() => particle.remove(), 4000);
 }
