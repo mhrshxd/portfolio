@@ -1,4 +1,3 @@
-// login-scripts.js
 const validUsername = "user123";
 const validPassword = "pass456";
 
@@ -44,7 +43,6 @@ document.addEventListener("keypress", function(e) {
     }
 });
 
-// Particle effect
 function createParticle() {
     const particle = document.createElement("div");
     particle.classList.add("particle");
